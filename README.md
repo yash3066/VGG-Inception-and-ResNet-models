@@ -32,3 +32,6 @@ Papers Link: [Deep Residual Learning for Image Recognition](https://arxiv.org/ab
 - ZFNet model won the ILSVRC 2013 challenge.
 - The key innovation on the model is the DeConvnet Techniques for Visualization, they run the AlexNet model and fine tuned it while visualizing the changes.
 - By visualizing the convolutional network layer by layer, ZFNet adjusts the layer hyperparameters such as filter size or stride of the AlexNet and successfully reduces the error rates.
+![](Images/ZFNet.png)
+- The above diagram is the architecture of the ZFNet model.
+Papers Link: [Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1311.2901)
