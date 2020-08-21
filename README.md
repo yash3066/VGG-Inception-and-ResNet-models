@@ -19,11 +19,16 @@ Here, I have implemented VGG16, Inception and ResNet50 models.
 ![](Images/Inception%20model.png)
 
 
-## 2) ResNet50 Module
-- ResNet stands for Residual Network and ResNet wo the ILSVRC-2015 challenge.
+## 3) ResNet50 Module
+- ResNet stands for Residual Network and ResNet won the ILSVRC-2015 challenge.
 - A key innovation in the ResNet was the residual module. The residual module, specifically the identity residual model, is a block of two convolutional layers with the same number of filters and a small filter size where the output of the second layer is added with the input to the first convolutional layer. The ResNet model contains Identity block and Convolutional block.
 ![](Images/Identity%20block.png)  ![](Images/Convolutional%20block.png)
 - The first one is the identity block and the other is the convolutional block.
 - Following is the architecture of the ResNet50 model, and the paper was published by __Kaiming He et.al 2015.
 Papers Link: [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
 ![](Images/ResNet50%20model.png)
+
+## 4) ZFNet Module
+- ZFNet model won the ILSVRC 2013 challenge.
+- The key innovation on the model is the DeConvnet Techniques for Visualization, they run the AlexNet model and fine tuned it while visualizing the changes.
+- By visualizing the convolutional network layer by layer, ZFNet adjusts the layer hyperparameters such as filter size or stride of the AlexNet and successfully reduces the error rates.
