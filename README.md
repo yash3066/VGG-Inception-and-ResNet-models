@@ -1,4 +1,4 @@
-# VGG-Inception-and-ResNet-models
+# VGG-Inception-ZFNet-and-ResNet-models
 Here, I have implemented VGG16, Inception and ResNet50 models.
 
 ## 1) VGG-16 Module
